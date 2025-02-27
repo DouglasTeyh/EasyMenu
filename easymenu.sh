@@ -9,7 +9,7 @@ while true; do
 
     case $opcao in
 	1) echo "Iniciando Atualização do Sistema... Aguarde."
-	   update;;
+	   update
 	   upgrade;;
 	2)homeDiskFree;;
 	
