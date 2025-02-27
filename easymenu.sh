@@ -1,31 +1,19 @@
-GREEN="\e[32m"
-BLUE="\e[34m"
-YELLOW="\e[33m"
-RESET="\e[0m"
-
+#---IMPORTS--- 
+. ./utils.sh
+. ./commands.sh
+#-------------
 while true; do
-
-    clear
-    echo -e "░█▀▀░█▀█░█▀▀░█░█░█▄█░█▀▀░█▀█░█░█"
-    echo -e "░█▀▀░█▀█░▀▀█░░█░░█░█░█▀▀░█░█░█░█"
-    echo -e "░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀░▀░▀▀▀"
-    sleep 1
-    echo -e "${GREEN}  for Ubuntu - by Douglas Teyh  ${RESET}"
-    sleep 1
-    echo -e "================================"
-    echo -e "         MENU PRINCIPAL"
-    echo -e "================================"
-    echo -e "1) Atualizar Repositórios Linux"
-    echo -e "2) Sair"
-    echo "================================"
-    sleep 1
+    welcome
+    menu    
     read -p "Escolha uma opção: " opcao
 
     case $opcao in
-        1) echo "Iniciando Atualização do Sistema... Aguarde."
-            sudo apt update
-            sudo apt upgrade;;
-        2) echo "Saindo..."; exit;;
+	1) echo "Iniciando Atualização do Sistema... Aguarde."
+	   update;;
+	   #upgrade;;
+	2)homeDiskFree;;
+	
+        0) echo "Saindo..."; exit;;
         *) echo "Opção inválida!";;
     esac
 
