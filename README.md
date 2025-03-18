@@ -2,7 +2,7 @@
 
 EasyMenu é um script em Shell criado para facilitar a vida de iniciantes no Linux, automatizando tarefas comuns e acelerando o uso do terminal de forma simples e intuitiva. Esse projeto nasceu da necessidade de tornar o ambiente Linux mais acessível, especialmente para aqueles que estão começando e ainda não se sentem à vontade com comandos mais avançados.
 
-Com o EasyMenu, você pode realizar tarefas como atualização de pacotes, limpeza de cache, verificação de espaço em disco, e muitas outras funções úteis — tudo através de um menu interativo e amigável. Isso economiza tempo e evita a necessidade de memorizar comandos longos.
+Com o EasyMenu, você pode realizar tarefas como atualização de pacotes, limpeza de cache, verificação de espaço em disco, e muitas outras funções úceis — tudo através de um menu interativo e amigável. Isso economiza tempo e evita a necessidade de memorizar comandos longos.
 
 🚨 **Segurança:**
 EasyMenu é totalmente seguro! Ele não solicita nem armazena informações pessoais ou sensíveis. Todas as ações realizadas são focadas apenas em comandos administrativos comuns para facilitar seu dia a dia no Linux.
@@ -46,11 +46,11 @@ chmod +x easymenu.sh
 💡 **Sugestões e Melhorias:**
 Tem alguma ideia ou melhoria para o EasyMenu? Fique à vontade para entrar em contato pelas redes acima! Sua contribuição é muito bem-vinda. 🚀
 
-☕ **Apoie esse projeto:**
+️☕ **Apoie esse projeto:**
 Esse script é totalmente gratuito e feito com muito carinho. Se o EasyMenu te ajudou e você quiser retribuir, considere me oferecer um "café"! Sua contribuição é muito apreciada. ❤️
 
-## 🙌 Créditos
-Desenvolvido por [Douglas Teyh](https://github.com/douglasteyh)
+# 🙌 Créditos
+### Contribuidores:
+[![Contribuidores](https://contrib.rocks/image?repo=DouglasTeyh/easymenu)](https://github.com/DouglasTeyh/easymenu/graphs/contributors)
 
-![Douglas Teyh](https://github.com/DouglasTeyh.png?size=80)
 
